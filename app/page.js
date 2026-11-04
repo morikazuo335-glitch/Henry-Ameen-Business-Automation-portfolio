@@ -72,6 +72,7 @@ export default function Home() {
           <p className="hero-description">
             I help businesses turn repetitive tasks into smarter systems — so you can respond faster, stay organised, and focus on the work that moves you forward.
           </p>
+          <p className="location-note">BASED IN AUSTRALIA <span>·</span> WORKING WITH BUSINESSES WORLDWIDE</p>
           <div className="hero-actions">
             <a className="button button-dark" href="#contact">Build a smarter workflow <span>↗</span></a>
             <a className="text-link" href="#services">Explore what I do <span>↓</span></a>
