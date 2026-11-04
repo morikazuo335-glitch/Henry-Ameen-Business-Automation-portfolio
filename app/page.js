@@ -45,7 +45,7 @@ const steps = [
 
 export default function Home() {
   return (
-    <main>
+    <main id="top">
       <div className="announcement">
         <span className="announcement-dot" />
         Thoughtful automation for ambitious businesses
@@ -200,7 +200,7 @@ export default function Home() {
       <footer className="site-footer shell">
         <a className="brand footer-brand" href="#"><span className="brand-mark">H<span>.</span></span><span className="brand-name">HENRY AMEEN CHARLES<small>BUSINESS AUTOMATION</small></span></a>
         <span>© {new Date().getFullYear()} Henry Ameen Charles. Built with intention.</span>
-        <a href="#top" onClick={(event) => { event.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Back to top ↑</a>
+        <a href="#top">Back to top ↑</a>
       </footer>
     </main>
   );
